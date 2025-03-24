@@ -21,7 +21,7 @@ export default async function Page() {
                 This page <strong>fetches and catches data at build time.</strong>
                 Even though the Unsplash APIs always returns a new image, we see the same image after refreshing the page until we complete the project again
             </Alert>
-
+            
             <Image
                 src = {image.urls.raw}
                 width = {width}
