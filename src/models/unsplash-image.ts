@@ -1,4 +1,7 @@
+import { Key } from "react";
+
 export interface UnsplashImage {
+    id: Key | null | undefined;
     description: string,
     user: {
         username: string,

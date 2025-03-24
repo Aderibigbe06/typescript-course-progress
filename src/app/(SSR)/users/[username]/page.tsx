@@ -1,4 +1,3 @@
-import { UnsplashUser } from "@/models/unsplash-user";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 

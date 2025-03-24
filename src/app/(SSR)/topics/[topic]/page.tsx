@@ -46,7 +46,7 @@ if (!response.ok) {
                         src = {image.urls.raw}
                         width = {250}
                         height = {250}
-                        alt = {image.description}
+                        alt = {image.urls.raw}
                         key = {image.urls.raw}
                         className = {styles.image}
                     />

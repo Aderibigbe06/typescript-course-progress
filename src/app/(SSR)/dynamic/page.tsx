@@ -33,7 +33,7 @@ export default async function Page() {
                 src = {image.urls.raw}
                 width = {width}
                 height = {height}
-                alt = {image.description}
+                alt = {image.urls.raw}
                 className = "rounded shadow mw = 100 h = 100"
                  />
                  by <Link href = {"/users/" + image.user.username}>(image.user.usernames)</Link>

@@ -58,16 +58,17 @@ export default function SearchPage() {
 
             { searchResults &&
             <>
-                { searchResults.map(image => (
+                { searchResults.map((image => (
                     <Image
+                        key = {image.id}
                         src = {image.urls.raw}
                         width = {250}
                         height = {250}
-                        alt = {image.urls.raw}
+                        alt = {image.description || "UnsplashImage"}
                         className = {styles.image}
                         />
             
-                ))
+                )))
                 }
             </>
             }
